@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="Birthday Reminders" icon-name="standard:thanks">
+        <template if:true={listView.data}>
+        <div class="slds-m-around_medium">
+            <template for:each={birthdays} for:item="contact">
+                <c-contact-tile
+                    key={contact.Id}
+                    contact={contact}
+                ></c-contact-tile>
+            </template>
+        </div>
+    </template>
+    </lightning-card>   
+</template>

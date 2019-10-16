@@ -1,0 +1,8 @@
+c-contact-tile {
+    position: relative;
+    border: solid 1px #ecebea;
+    border-radius: 4px;
+    display: block;
+    margin: 1px 0;
+    padding: 0 2px;
+}
